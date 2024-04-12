@@ -7,7 +7,8 @@ app = Flask(__name__)
 
 @app.route('/', strict_slashes=False)
 def hello_hbnb():
-    """Base route that displays "Hello HBNB!"."""
+    
+    """Route that displays "Hello HBNB!" as the homepage."""
     return "Hello HBNB!"
 
 
